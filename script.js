@@ -1,6 +1,6 @@
 async function loadContentWithHeaders() {
     try {
-      const response = await fetch("https://82dc-103-190-83-133.ngrok-free.app", {
+      const response = await fetch("https://casual-master-dingo.ngrok-free.app", {
         method: 'GET',
         headers: new Headers({
             "ngrok-skip-browser-warning": "true",
